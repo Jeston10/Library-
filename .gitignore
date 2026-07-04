@@ -1,0 +1,67 @@
+# .gitignore for ScheditGlobal project
+# Maven / Java
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+**/target/
+*.class
+*.log
+*.tmp
+*.iml
+*.idea/
+*.vscode/
+# IDE files
+*.project
+*.classpath
+*.settings/
+# OS files
+.DS_Store
+Thumbs.db
+# Node / Frontend
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+# Build artifacts
+/dist/
+/build/
+# Environment files
+.env
+.env.local
+.env.*.local
+# Docker
+docker-compose.override.yml
+# Misc
+*.war
+*.ear
+*.jar
+*.zip
+*.tar.gz
+# Logs
+logs/
+# Temporary files
+tmp/
+# Generated files
+*.generated
+# Spring Boot
+*.properties
+# IntelliJ
+.idea/
+*.iml
+# VS Code
+.vscode/
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.properties
+
+# TypeScript Compiler build info metadata
+*.tsbuildinfo
+
+# Additional log and build files
+*_log.txt
+*build_log.txt
+*build_err.txt
+*build.log
+*mvn_debug.log
+*mvn_debug.txt
+*mvn_debug_full.log
+*mvn_local_build.txt
+*docker_logs.txt
